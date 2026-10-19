@@ -17,3 +17,7 @@ pico-sdk/
 .cache/
 compile_commands.json
 .DS_Store
+
+# fertige Firmware: als GitHub-Release, nicht im Repo
+dist/
+*.log

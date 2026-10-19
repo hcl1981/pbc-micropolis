@@ -8,7 +8,7 @@ zusammen mit `vendor/micropolis/sim/s_*.c`), nicht etwa ein Nachbau: dieselbe
 Simulation, die 1989 im Original lief, nur ohne X11 und Tcl/Tk.
 
 ```bash
-./build.sh          # baut nach ../dist/micropolis.uf2
+./build.sh          # baut nach dist/micropolis.uf2
 ./build.sh clean    # Bauordner vorher löschen
 ```
 
@@ -140,3 +140,10 @@ und die vollständige Karte exakt wieder her.
 
 GPL-3.0, wie Micropolis. Siehe `LICENSE`; zur Namensverwendung außerdem
 `vendor/micropolis/MicropolisPublicNameLicense.md` und `NOTICE.md`.
+
+## Herkunft und Download
+
+Teil der Sammlung für den PicoBoy Color Plus; Übersicht und
+Hardware-Referenz: [pbc-plus](https://github.com/hcl1981/pbc-plus). Die fertige Firmware
+(micropolis.uf2) liegt unter **Releases**. `./build.sh` baut nach `dist/`;
+Werkzeuge und SDK siehe [`docs/BAUEN.md`](docs/BAUEN.md).
